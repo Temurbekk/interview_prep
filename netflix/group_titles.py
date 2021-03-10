@@ -1,3 +1,14 @@
+'''
+    Question: Given an array of titles, find similar titles
+
+    Answer:
+    What we want to do is to find the occurance of every character in the title
+    load it into the hashmap and compare the other titles. If there is a similar title,
+    we add that to a specific key in the hashmap. In the end, we will return the array of
+    grouped titles by accessing the values of our hashmap
+'''
+
+
 def group_titles(titles):
     result = {}
 
